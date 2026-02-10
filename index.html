@@ -88,8 +88,7 @@
     </a>
 
     <script>
-        const isSafari = true
-        navigator.vendor?.includes('Apple') &&
+        const isSafari = navigator.vendor?.includes('Apple') &&
             !navigator.userAgent.includes('CriOS') &&
             !navigator.userAgent.includes('FxiOS');
 
@@ -129,5 +128,6 @@
 </body>
 
 </html>
+
 
 
